@@ -108,6 +108,7 @@
     height: 482px;
     flex-shrink: 0;
     margin: auto;
+    margin-bottom: 50px;
 }
 .date-content{
     color: #070211;
@@ -138,4 +139,67 @@ button{
 .btn{
     text-align: center;
     margin-top: 40px;
+}
+.best-offer{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+}
+.content-1{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.content-2{
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+    margin: auto;
+    border-radius: 50%;
+    border: 15px solid #F00;
+    padding-left: 33px;
+    padding-top: 33px;
+}
+.img-content{
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
+    border-radius: 364.844px;
+    background: lightgray -91.279px 0px / 150.038% 100% no-repeat;
+}
+.content-3{
+    padding-top: 50px;
+}
+.sub-content-1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+.sub-content-2{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 350px;
+}
+.sub-1{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+.sub-2{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 250px;
+    margin-top: 20px;
+}
+.sub-3{
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+    padding-top: 30px;
 }
