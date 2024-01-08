@@ -1,13 +1,15 @@
+/* common shared styles*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
+/* header related styles */
 .container{
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Banner\ Image.png);
     background-position: center;
     background-size: cover;
-    width: 85%;
+    width: 90%;
     height: 650px;
     margin: 50px auto;
     border-radius: 16px;
@@ -31,4 +33,32 @@
     font-weight: 900;
     line-height: 95px;
     text-align: center;
+}
+/* main section styles */
+.sale{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.sale-2{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 50px;  
+}
+.sale-3{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.H-N-Y{
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    margin: 50px auto;
 }
