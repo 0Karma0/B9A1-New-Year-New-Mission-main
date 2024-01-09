@@ -206,7 +206,8 @@ button{
     padding-top: 30px;
 }
 .holiday {
-    width: 85%;
+    width: 100%;
+    max-width: 1320px;
     margin: 120px auto;
 }
 .holiday-content {
@@ -243,15 +244,16 @@ button{
     justify-content: space-around;
     background: url('../resources/Rectangle\ 1.png'),
     url('../resources/Rectangle\ 2.png');
-    width: 80%;
+    width: 100%;
     margin: auto;
     background-repeat: no-repeat;
     background-position: top right, bottom;
+    gap: 15px;
 }
 .holiday-images-1 {
-    width: 45%;
+    width: 55%;
 }
 .holiday-images-2 {
-    width: 40%;
+    width: 45%;
     padding-top: 75px;
 }
