@@ -145,6 +145,8 @@ button{
     width: 85%;
     margin: auto;
     margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
 }
 .content-1{
     color: #F00;
@@ -156,11 +158,11 @@ button{
     width: 400px;
     height: 400px;
     flex-shrink: 0;
-    margin: auto;
     border-radius: 50%;
     border: 15px solid #F00;
     padding-left: 33px;
     padding-top: 33px;
+    margin-right: 65px;
 }
 .img-content{
     width: 364.844px;
@@ -202,4 +204,54 @@ button{
     height: 140px;
     flex-shrink: 0;
     padding-top: 30px;
+}
+.holiday {
+    width: 85%;
+    margin: 120px auto;
+}
+.holiday-content {
+    text-align: center;
+}
+.holiday-content h3 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+}
+.holiday-content h2 {
+    color: #f00;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    padding: 16px 0 28px;
+}
+.holiday-content span {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+}
+.holiday-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    max-width: 65%;
+    margin: 0 auto;
+    padding-bottom: 64px;
+}
+.holiday-images {
+    display: flex;
+    justify-content: space-around;
+    background: url('../resources/Rectangle\ 1.png'),
+    url('../resources/Rectangle\ 2.png');
+    width: 80%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: top right, bottom;
+}
+.holiday-images-1 {
+    width: 45%;
+}
+.holiday-images-2 {
+    width: 40%;
+    padding-top: 75px;
 }
