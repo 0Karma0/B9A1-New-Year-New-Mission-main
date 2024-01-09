@@ -352,3 +352,61 @@ button{
 }
 
 /* Footer related styles*/
+footer{
+    background: #070211;
+    height: 600px;
+}
+.foot{
+    width: 85%;
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+.foot-content1 p{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-top: 100px;
+    width: 350px;
+    height: 65px;
+}
+.foot-content2{
+    justify-content: space-between;
+    padding-top: 100px;
+    display: flex;
+    gap: 10px;
+}
+.foot-icn img{
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+}
+.foot-icn1{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.foot-content3 hr{
+    width: 85%;
+    margin: auto;
+}
+.social-img{
+    width: 85%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    margin: 25px auto;
+    gap: 15px;
+    justify-content: center;
+}
+.foot-icn10 {
+    width: 85%;
+    display: flex;
+    margin: 100px auto;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    justify-content: space-between;
+}
