@@ -92,6 +92,9 @@
     padding-left: 120px;
     padding-top: 80px;
 }
+.party a{
+    text-decoration: none;
+}
 .para-3{
     color: #FFF;
     font-size: 20px;
@@ -295,3 +298,57 @@ button{
     column-gap: 25px;
     justify-content: center;
 }
+.forms{
+    width: 85%;
+    height: 600px;
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+    margin: 50px auto;
+}
+.form-img{
+    text-align: center;
+    padding-top: 70px;
+}
+.form-text h2{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 10px;
+}
+.form-text p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 15px;
+}
+.form-btn{
+    text-align: center;
+    padding-top: 70px;
+}
+.form-btn input[type="email"] {
+    color: rgba(7, 2, 17, 0.3);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 267px 25px 35px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    background: #fff;
+    outline: none;
+}
+.form-btn input[type="button"] {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: #f00;
+    padding: 24px 56px;
+    cursor: pointer;
+}
+
+/* Footer related styles*/
